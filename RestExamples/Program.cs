@@ -1,5 +1,7 @@
-﻿
+﻿/*
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using RestExamples;
 using RestSharp;
 
 string baseUrl = "https://reqres.in/api/";
@@ -57,9 +59,9 @@ else
 {
     Console.WriteLine($"Error - {getUsersResponse.ErrorMessage}");
 }
-/*Console.WriteLine("\nGet response for page 1");
+*//*Console.WriteLine("\nGet response for page 1");
 Console.WriteLine(getUsersResponse.Content);
-*/
+*//*
 
 //get with query parameter
 
@@ -133,3 +135,35 @@ Console.WriteLine("\n method Put with response body");
 Console.WriteLine(updateUsersResponse.Content);
 
 
+
+
+GetSingleUser(client);
+
+static void GetSingleUser(RestClient client)
+{
+    var getUsersRequest = new RestRequest("users/2", Method.Get);
+    var getUsersResponse = client?.Execute(getUsersRequest);
+    //response in json format
+
+    if (getUsersResponse?.StatusCode == System.Net.HttpStatusCode.OK)
+    {
+        var response = JsonConvert.DeserializeObject<UserDataResponse>
+            (getUsersResponse?.Content) ;
+        UserData? userData = response?.Data;
+        Console.WriteLine($"User id - {userData?.Id}");
+        Console.WriteLine($"User Email - {userData?.Email}");
+        Console.WriteLine($"User Name - {userData?.FirstName} {userData?.LastName}");
+        Console.WriteLine($"User Avatar - {userData?.Avatar}");
+
+    }
+    else
+    {
+        Console.WriteLine($"Error - {getUsersResponse?.ErrorMessage}");
+    }
+}
+*/
+
+using RestExamples;
+
+APIWithExceptions api = new APIWithExceptions();
+api.GetSingleUser();
