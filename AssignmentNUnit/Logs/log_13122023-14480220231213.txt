@@ -1,0 +1,3 @@
+2023-12-13 14:48:02.793 +05:30 [INF] Delete post
+2023-12-13 14:48:04.215 +05:30 [INF] Response code is returned as expected
+2023-12-13 14:48:04.222 +05:30 [INF] Deleted and returned response{}

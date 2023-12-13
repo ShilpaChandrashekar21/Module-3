@@ -1,0 +1,27 @@
+2023-12-13 10:19:35.740 +05:30 [INF] Getting all the users
+2023-12-13 10:19:36.081 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:36.089 +05:30 [INF] All the user data is returned
+2023-12-13 10:19:36.089 +05:30 [INF] Get All Users Test all asserts passed
+2023-12-13 10:19:36.095 +05:30 [INF] Getting all the users
+2023-12-13 10:19:36.231 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:36.238 +05:30 [INF] user data is returned
+2023-12-13 10:19:36.238 +05:30 [INF] The Id of user matches to the expected result
+2023-12-13 10:19:36.239 +05:30 [INF] user FirstNAme is not null
+2023-12-13 10:19:36.239 +05:30 [INF] Get Single User Test all asserts passed
+2023-12-13 10:19:36.241 +05:30 [INF] Creating the user
+2023-12-13 10:19:36.735 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:36.738 +05:30 [INF] user data created & returned
+2023-12-13 10:19:36.738 +05:30 [INF] The Job of user matches to the expected result
+2023-12-13 10:19:36.738 +05:30 [INF] Create user Test all asserts passed
+2023-12-13 10:19:36.739 +05:30 [INF] Updating the user
+2023-12-13 10:19:37.253 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:37.253 +05:30 [INF] user data updated & returned
+2023-12-13 10:19:37.254 +05:30 [INF] The Job of user matches to the expected result
+2023-12-13 10:19:37.254 +05:30 [INF] Update user Test all asserts passed
+2023-12-13 10:19:37.255 +05:30 [INF] Deleting the user
+2023-12-13 10:19:37.721 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:37.721 +05:30 [INF] user data deleted & returned
+2023-12-13 10:19:37.721 +05:30 [INF] Delete user Test all asserts passed
+2023-12-13 10:19:37.722 +05:30 [INF] Getting the non existing user
+2023-12-13 10:19:38.227 +05:30 [INF] Response status code returned as expected
+2023-12-13 10:19:38.227 +05:30 [INF] Getting non existing user Test all asserts passed

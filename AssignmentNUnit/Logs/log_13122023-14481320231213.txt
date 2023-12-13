@@ -1,0 +1,5 @@
+2023-12-13 14:48:13.353 +05:30 [INF] Creating new Post
+2023-12-13 14:48:16.022 +05:30 [INF] Response code is as expected
+2023-12-13 14:48:16.023 +05:30 [INF] post created and returned responseAssignmentNUnit.PostData
+2023-12-13 14:48:16.024 +05:30 [INF] Checked for post title
+2023-12-13 14:48:16.024 +05:30 [INF] All asserts for create post test - passed
