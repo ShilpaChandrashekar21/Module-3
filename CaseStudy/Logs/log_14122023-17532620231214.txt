@@ -1,0 +1,8 @@
+2023-12-14 17:53:26.682 +05:30 [INF] Token Generated
+2023-12-14 17:53:27.408 +05:30 [INF] Response code is as expected
+2023-12-14 17:53:27.409 +05:30 [INF] response id returnedCaseStudy.Utilities.HeaderData
+2023-12-14 17:53:27.409 +05:30 [INF] All asserts passed for Generate Token Test
+2023-12-14 17:53:27.410 +05:30 [INF] Create Booking
+2023-12-14 17:53:28.118 +05:30 [INF] Response code is as expected
+2023-12-14 17:53:28.122 +05:30 [INF] response id returned{"bookingid":286,"booking":{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+2023-12-14 17:53:28.122 +05:30 [INF] All asserts passed for  Create Booking Test

@@ -1,0 +1,15 @@
+2023-12-14 17:53:20.343 +05:30 [INF] 
+
+2023-12-14 17:53:20.374 +05:30 [INF] Getting All Booking Ids
+2023-12-14 17:53:21.448 +05:30 [INF] Response code is as expected
+2023-12-14 17:53:21.451 +05:30 [INF] response returnedRestSharp.RestResponse
+2023-12-14 17:53:21.451 +05:30 [INF] All assert for get all booking test passed
+2023-12-14 17:53:21.457 +05:30 [INF] 
+
+2023-12-14 17:53:21.457 +05:30 [INF] Get Single Booking Id
+2023-12-14 17:53:22.272 +05:30 [INF] Response code is as expected
+2023-12-14 17:53:22.275 +05:30 [INF] response returnedCaseStudy.Utilities.BookingData
+2023-12-14 17:53:22.277 +05:30 [INF] Field firstName is not empty
+2023-12-14 17:53:22.277 +05:30 [INF] Field lastName is not empty
+2023-12-14 17:53:22.278 +05:30 [INF] Field totalPrice is not empty
+2023-12-14 17:53:22.278 +05:30 [INF] All asserts of get single booking id test - passed
